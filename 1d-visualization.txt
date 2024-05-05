@@ -1,0 +1,21 @@
+**1d:(col:petallength)
+
+**2d:(col:relationship ; rows:age)
+
+**3d:(col:hours-per-week , rows:age)
+   (shape:gender ; details-education ; color:income)
+
+**temporal data visualization:
+(col: education ; rows:fnlwgt , capital-loss)
+(path:fnlwgt , capital-loss)
+
+**multidimensional data visualization:
+(col: income , race , occupation ; rows: age)
+(color: occupation)
+
+**tree/hierarchical data visualization:
+(col:no ; rows:no)
+(color:age ; size:age ; label:income , race , occupation)
+
+**network data visualization:
+(size: capital-loss ; label: income , education ; color:fnlwgt)
